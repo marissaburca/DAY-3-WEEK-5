@@ -1,15 +1,19 @@
 article{ 
     width: 80%;
+    height: 300px;
     margin:10px;
     background-color:  rgb(250,247,229);
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 article img{
+    object-fit: cover;
     width: 50%;
+    height: 100%;
     order: 1;
 }
 .cut{
@@ -17,4 +21,21 @@ article img{
     width: 40%;
     align-self: flex-start;
     order: 2;
+}
+@media screen and(min-width: 768px){
+article{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+article img{
+    width: 50%;
+    order: 2;
+}
+.cut{
+    color: rgb(130, 67, 38);
+    width: 40%;
+    align-self: flex-start;
+    order: 1;
+}
 }
