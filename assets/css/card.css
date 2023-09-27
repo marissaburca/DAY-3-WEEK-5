@@ -1,0 +1,58 @@
+.card{
+    display:flex;
+    width: 350px;
+    height: 500px;
+    padding:30px 20px;
+}
+.roundy{
+    background-color: rgb(250,247,229);
+    color: rgb(130, 67, 38);
+    border-radius: 110px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+.roundy img{
+    object-fit: cover;
+    border-top-right-radius: 110px;
+    border-top-left-radius: 110px;
+}
+.blocco{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.text1{
+    align-self: center;
+    text-align: center;
+}
+h2{
+    width: 100%;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    
+}
+.primo{
+    align-self: center;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+.secondo{
+    align-self: center;
+    font-size: 1.6em;
+}
+button{
+    width:150px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: rgb(130, 67, 38);
+    border: none;
+    background-color: rgb(240,224,145);
+    align-self: center;
+}
